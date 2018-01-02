@@ -27,6 +27,7 @@
     "less-loader": "^4.0.5",
     "open-browser-webpack-plugin": "0.0.5",
     "postcss-loader": "^2.0.9",
+    "react-router-dom": "^4.2.2",
     "style-loader": "^0.19.0",
     "uba": "2.2.3",
     "uglifyjs-webpack-plugin": "^1.1.2",
@@ -34,6 +35,7 @@
     "webpack-hot-middleware": "^2.21.0"
   },
   "dependencies": {
+    "react-router": "^4.2.0",
     "tinper-bee": "^1.2.0"
   }
 }

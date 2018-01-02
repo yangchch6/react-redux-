@@ -1,4 +1,5 @@
 import {Component} from 'react';
+// import {SideBar} from 'containers/sideBar';
 import {Navbar,FormControl,Menu,Badge,Icon,Breadcrumb} from 'tinper-bee';
 
 const SubMenu = Menu.SubMenu;
@@ -93,7 +94,7 @@ export default class App extends Component {
                             <a href="http://tinper.org" target="_blank"> <Icon type="uf uf-qm-c"></Icon> 帮助 </a>
                             <a className="" href="#">
                                 <img alt="" className="avatar float-left mr-1" src="https://avatars3.githubusercontent.com/u/3817644?s=460&v=4" height="20" width="20" />
-                                admin
+                                Ycc
                             </a>
                         </NavItem>
                     </Nav>
@@ -116,7 +117,6 @@ export default class App extends Component {
                         <div className="inner-content"></div>
                     </div>
                 </div>
-
             </div>)
     }
 }
