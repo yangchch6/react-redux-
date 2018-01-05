@@ -12,7 +12,7 @@ class Shop extends Component{
   render() {
     return (
       <div>
-        <h2>商品列表:</h2>
+        <h2>Products</h2>
         <ul>
           <li>product1<Icon type="uf-add-c-o" onClick={this.handleClick}></Icon></li>
           <li>product2<Icon type="uf-add-c-o"></Icon></li>

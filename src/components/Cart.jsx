@@ -4,7 +4,7 @@ class Cart extends Component{
   render() {
     return (
       <div>
-        <h2>购物车:</h2>
+        <h2>Your Cart</h2>
         <ul>
           <li>product</li>  
         </ul>  
