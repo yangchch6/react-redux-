@@ -1,23 +1,29 @@
-### 说明
+### how to quick start
 
-- 本脚手架依赖于前端集成开发工具[ uba ](https://github.com/iuap-design/tinper-uba)，项目生成的时候需要安装全局工具命令来使用，参与开发人员无需重复安装全局使用。
+In the project directory, you can run:
 
-- 集成市面上常规的使用插件等配置，可以满足常规开发需求，无需繁琐复杂的配置项，简单、干净、舒服。
+### `npm start`
 
-- 依赖强大的集成开发工具 `uba` 内置 `数据模拟`、`代理请求`、`静态托管`、`开放配置`等功能.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- 方便开发人员在快速搭建`react`前端开发项目，无需学习复杂配置环境，拆箱即用.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-### 安装与使用
+### `npm run build`
 
-1. 安装`uba` 命令：`npm install uba -g`.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. 执行`uba`命令来查看帮助.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-3. 生成本脚手架 命令：`uba init`选择`template-react-single-pages`回车继续等待安装即可。(可以使用默认的npm来安装，也可以手动后续来安装)
+### `npm run eject`
 
-4. 启动开发`npm run dev`,稍等片刻会自动打开默认浏览器显示.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-5. 开发完毕后，使用命令`npm run build`来产出所需的静态资源依赖文件.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-6. 享受集成开发工具`uba`给你带来的方便体验来开发吧！
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
