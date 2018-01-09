@@ -10,6 +10,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
         title={product.title}
         price={product.price}
         quantity={product.quantity}
+        icon={product.icon}
         key={product.id}
       />
     )
